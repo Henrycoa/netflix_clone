@@ -271,12 +271,10 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(15, 23, 42, 0.9) 0%,
-    rgba(15, 23, 42, 0.7) 50%,
-    rgba(15, 23, 42, 0.9) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(15, 23, 42, 0.9) 0%,
+      rgba(15, 23, 42, 0.7) 50%,
+      rgba(15, 23, 42, 0.9) 100%);
 }
 
 .hero-content {
@@ -356,7 +354,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
   transition: left 0.5s ease;
 }
 
@@ -549,13 +547,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.8) 0%,
-    transparent 30%,
-    transparent 70%,
-    rgba(0, 0, 0, 0.9) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      transparent 30%,
+      transparent 70%,
+      rgba(0, 0, 0, 0.9) 100%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -769,7 +765,7 @@ body {
   .hero-title {
     font-size: 3rem;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
@@ -780,53 +776,53 @@ body {
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .nav-links {
     order: 3;
     width: 100%;
     justify-content: center;
   }
-  
+
   .search-container {
     order: 2;
     width: 100%;
   }
-  
+
   .search-input {
     width: 100%;
   }
-  
+
   .search-input:focus {
     width: 100%;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-buttons {
     flex-direction: column;
   }
-  
+
   .btn {
     justify-content: center;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
   }
-  
+
   .footer-content {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .footer-links-grid {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  
+
   .carousel-btn {
     display: none;
   }
@@ -836,25 +832,25 @@ body {
   .container {
     padding: 0 15px;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .footer-bottom {
     flex-direction: column;
     gap: 15px;
     text-align: center;
   }
-  
+
   .legal-links {
     justify-content: center;
   }
